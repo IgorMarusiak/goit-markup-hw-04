@@ -292,19 +292,38 @@ ul {
 /* ---------section-two------------ */
 /* ---------section-three---------- */
 .three-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.icons-svg {
+.soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
-.icons-svg :hover {
+.soc-link {
+  width: 40px;
+  height: 40px;
+}
+.soc-icon {
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soc-icon :hover {
   background-color: #404bbf;
 }
-.icons-svg :focus {
+.soc-icon :focus {
   background-color: #404bbf;
+}
+.icon {
+  fill: #f4f4fd;
 }
 .info-people {
   padding-top: 32px;
   padding-bottom: 32px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .hero-team {
   background: #f4f4fd;
@@ -312,22 +331,7 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.people-social-network {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-.social-network {
-  display: flex;
-  fill: #f4f4fd;
-  width: 100px;
-  height: 100px;
-  border-color: #4d5ae5;
-  border-radius: 50%;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-}
+
 .hero-team-title {
   color: #2e2f42;
   font-size: 36px;
@@ -348,7 +352,7 @@ ul {
 .our-team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our-team-members {
   color: #2e2f42;
