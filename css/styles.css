@@ -175,15 +175,19 @@ ul {
 
 /**----------section-one------------- */
 .hero {
-  align-content: center
-  max-width: 1440px;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg); або background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 
 .hero-container {
@@ -219,7 +223,7 @@ ul {
   background-color: #4d5ae5;
   border-radius: 4px;
   margin-top: 48px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-service-btm {
   background-color: #4d5ae5;
