@@ -506,11 +506,11 @@ ul {
   max-width: 264px;
   max-height: 72px;
 }
-.footer-social-media {
+.footer-soc {
   display: flex;
   flex-direction: column;
 }
-.footer-media-content {
+.footer-soc-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
