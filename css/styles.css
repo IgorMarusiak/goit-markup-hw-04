@@ -472,10 +472,15 @@ ul {
 .footer-container {
   display: flex;
 }
-
+.foter-content {
+  margin-right: 120px;
+}
 .foter-ikon-list {
   display: flex;
   gap: 16px;
+}
+.foter-soc-icon :hover {
+  background-color: #31d0aa;
 }
 .foter-soc-icon {
   width: 40px;
