@@ -469,6 +469,9 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-container {
+  display: flex;
+}
 
 .foter-ikon-list {
   display: flex;
